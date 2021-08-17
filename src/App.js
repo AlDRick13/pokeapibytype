@@ -7,7 +7,7 @@ import {getPokesByType} from './services/getPokesByType'
 function App() {
 
   const [data, setData] = useState([])
-  const [queryTerm, setQueryTerm] = useState('')
+  const [queryTerm, setQueryTerm] = useState('normal')
   const [showNPokes, setShowNPokes] = useState(10)
 
   useEffect(() => {
@@ -33,7 +33,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Type Pokemon Searcher!</h1>
+        <h1> Search Pokemon by Type!</h1>
+        <h5>Write Pokemon Type</h5>
         <SearcBox onChange={handleSelect} onSearch={handleSearch}/>
         <div className="Poke-container">{items}</div>
       </header>
