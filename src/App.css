@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url("https://images3.alphacoders.com/648/thumb-1920-648583.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.Poke-box {
+  border-color: white;
+  border: solid;
+  border-radius: 5%;
+  padding: 10px;
+  flex-direction: column;
+  margin: 10px;
+}
