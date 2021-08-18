@@ -15,7 +15,7 @@
 
 .App-header {
   background-image: url("https://images3.alphacoders.com/648/thumb-1920-648583.jpg");
-  background-size: cover;
+  background-size: contain;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
